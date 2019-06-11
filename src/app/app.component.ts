@@ -10,12 +10,12 @@ export class AppComponent  {
 
   constructor(){
     this.items = [
-      {name: 'assets/images/pic1.png' },
-      {name: 'assets/images/pic2.png' },
-      {name: 'assets/images/pic3.png' },
-      {name: 'assets/images/pic4.png' },
-      {name: 'assets/images/pic5.png' },
-      {name: 'assets/images/pic6.png' },
+      {name: 'https://cdn.jsdelivr.net/gh/phlipzamo/scrolling@master/src/app/assets/images/pic1.jpg' },
+      {name: 'https://cdn.jsdelivr.net/gh/phlipzamo/scrolling@master/src/app/assets/images/pic2.jpg' },
+      {name: 'https://cdn.jsdelivr.net/gh/phlipzamo/scrolling@master/src/app/assets/images/pic3.jpeg' },
+      {name: 'https://cdn.jsdelivr.net/gh/phlipzamo/scrolling@master/src/app/assets/images/pic4.jpg' },
+      {name: 'https://cdn.jsdelivr.net/gh/phlipzamo/scrolling@master/src/app/assets/images/pic5.jpg' },
+      {name: 'https://cdn.jsdelivr.net/gh/phlipzamo/scrolling@master/src/app/assets/images/pic6.jpg' },
     ];
   }
 }
