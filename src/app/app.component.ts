@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = 'Angular';
+  items:Array<any> =[];
+
+  constructor(){
+    this.items = [
+      {name: 'assets/images/pic1.png' },
+      {name: 'assets/images/pic2.png' },
+      {name: 'assets/images/pic3.png' },
+      {name: 'assets/images/pic4.png' },
+      {name: 'assets/images/pic5.png' },
+      {name: 'assets/images/pic6.png' },
+    ];
+  }
 }
